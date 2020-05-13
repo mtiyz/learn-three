@@ -4,7 +4,8 @@
   "description": "Project for learn three.js",
   "main": "src/index.html",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir build --public-url ."
   },
   "repository": "https://github.com/mtiyz/learn-three",
   "author": "motiya",
